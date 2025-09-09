@@ -1,74 +1,127 @@
-      *,
-      html,
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      }
-      .gradient-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        rotate: 180deg;
-        background: linear-gradient(
-          rgba(255, 255, 255, 1) 20%,
-          rgba(255, 255, 255, 0) 100%
-        );
-      }
-      .immune {
-        rotate: 180deg;
-      }
-      .rotate-90{
-        rotate: 45deg;
-      }
+*,
+html,
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body{
+  background-color: #f8f9fa;
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  rotate: 180deg;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.hero-section {
+  position: relative;
+  max-height: 450px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.hero-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.immune {
+  rotate: 180deg;
+}
+.rotate-90 {
+  rotate: 45deg;
+}
 
-      .fs-3xl {
-        font-size: xxx-large;
-      }
-      @media (max-width: 768px) {
-        .fs-3xl {
-          font-size: xx-large;
-        }
-      }
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.fs-3xl {
+  font-size: 2.5rem;
+}
+.fs-2xl {
+  font-size: 1.5rem;
+}
 
-      @media (max-width: 576px) {
-        .fs-3xl {
-          font-size: x-large;
-        }
-      }
+.text-justify {
+  text-align: justify;
+}
 
-      .fs-2xl {
-        font-size: xx-large;
-      }
-      @media (max-width: 768px) {
-        .fs-2xl {
-          font-size: xx-large;
-        }
-      }
-      @media (max-width: 576px) {
-        .fs-2xl {
-          font-size: medium;
-        }
-      }
-      .fs-xl {
-        font-size: x-large;
-      }
-      .logo {
-        width: 70px;
-        height: 70px;
-      }
-      @media (max-width: 768px) {
-        .logo {
-          width: 50px;
-          height: 50px;
-        }
-      }
-      @media (max-width: 576px) {
-        .logo {
-          width: 40px;
-          height: 40px;
-        }
-      }
-      .text-justify{
-        text-align: justify;
-      }
+.wrap {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.carousel .card {
+  min-height: 220px;
+}
+.carousel-item {
+  padding: 1rem 0;
+}
+.border-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #343a40;
+  margin: 2rem auto;
+  display: block;
+}
+/* Card group for program section */
+.card-group .card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+  transition: transform 0.3s ease;
+}
+.card-group .card:hover {
+  transform: translateY(-8px);
+}
+.card-title a {
+  text-decoration: none;
+}
+/* CTA button */
+#cta .btn {
+  font-size: 1.75rem;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+#cta .btn:hover {
+  background-color: #218838;
+}
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .wrap.d-flex.flex-lg-row.flex-column {
+    flex-direction: column !important;
+  }
+  .card-group.d-flex.flex-md-row.flex-column {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .fs-3xl {
+    font-size: 2rem;
+  }
+  .fs-2xl {
+    font-size: 1.25rem;
+  }
+}
+.hvr-grow:hover{
+  scale: 1.1;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}

@@ -2,7 +2,7 @@
 <html lang="en" data-bs-theme="light">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -13,202 +13,307 @@
       rel="stylesheet"
       href="assets/fastbootstrap/dist/css/fastbootstrap.min.css"
     />
-    <title></title>
+    <title>Public Speaking with LKP & LPK Athahira</title>
   </head>
   <body class="w-100 h-auto">
-    <div class="container-fluid d-flex flex-column mt-3">
-      <!-- hero section start -->
-      <div
-        class="w-100 h-100 d-flex flex-column position-relative justify-content-center align-content-center"
-      >
+    <div class="container-fluid d-flex flex-column mt-4 px-3 px-md-5">
+      <!-- Hero Section -->
+      <section class="hero-section mb-5">
         <img
           src="assets/img/cover-img.jpg"
-          alt=""
-          class="img-fluid rounded-1"
+          alt="Cover Image"
+          class="img-fluid"
         />
-        <div class="gradient-overlay my-4"></div>
-      </div>
-      <div
-        class="w-100 h-100 d-flex z-2 align-items-center justify-content-center mt-2 flex-column"
-      >
-        <div
-          class="wrap align-items-center justify-content-center d-flex flex-row gap-2 w-100 d-flex flex-row my-4"
-        >
+        <div class="gradient-overlay"></div>
+      </section>
+
+      <section class="text-center mb-5">
+        <div class="d-flex justify-content-center gap-4 mb-4 flex-wrap">
           <img
             src="assets/img/lpk.png"
-            class="img-fluid logo rounded-circle"
-            alt=""
+            alt="LPK Logo"
+            class="logo"
+            loading="lazy"
           />
           <img
             src="assets/img/lkp.png"
-            class="img-fluid logo rounded-circle"
-            alt=""
+            alt="LKP Logo"
+            class="logo"
+            loading="lazy"
           />
         </div>
-        <div class="text-center">
+        <h1 class="fw-bolder fs-3xl text-dark mb-3">
+          Berani Bicara, Hebat di Segala Suasana!
+        </h1>
+        <p class="fs-2xl mb-3">
+          Public speaking bukan cuma soal berbicara, tapi juga tentang bagaimana
+          kamu bisa menyampaikan ide dengan percaya diri, memimpin audiens, dan
+          membuka peluang karier yang lebih luas.
+        </p>
+        <p class="fs-2xl">
+          Bersama LKP dan LPK Athahira, kamu akan belajar teknik berbicara yang
+          efektif, percaya diri di depan publik, hingga membangun relasi yang
+          bermanfaat.
+        </p>
+      </section>
+
+      <!-- Carousel Section -->
+      <section class="wrap mb-5">
+        <div class="text-center mb-4">
           <h1 class="fw-bolder fs-3xl text-dark">
-            Jago Bicara, Kuasai Panggung, Tingkatkan Karier!
+            Kata Mereka Tentang
+            <span class="bg-warning px-2 rounded">Public Speaking</span>
           </h1>
-          <p class="fs-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            pariatur nulla quaerat, praesentium, totam qui non voluptas nobis
-            est quos in impedit molestiae eligendi vero sint, ullam perspiciatis
-            dolore animi.
-          </p>
-          <p class="fs-2xl">
-            Quos, expedita? Obcaecati modi nemo tempore cumque laborum fuga, non
-            veniam, tenetur earum dicta asperiores aperiam deserunt officia
-            soluta similique? Culpa quam dolor incidunt iure esse, distinctio
-            officia repudiandae quia.
-          </p>
         </div>
-        <!-- hero section end -->
-        <!-- Carousel start -->
-        <span class="border border-dark w-75 h-75 rounded-circle my-4"></span>
-        <div class="wrap">
-          <div class="text-center">
-            <h1 class="fw-bolder fs-3xl text-dark">
-              Emang Public Speaking itu
-              <span class="bg-warning">Penting</span> ya?
-            </h1>
-          </div>
-          <div
-            id="carouselExampleSlidesOnly"
-            class="carousel slide mt-4"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card d-block w-100 h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Raden Oemar Said Tjokroaminoto</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">
-                      Pendiri Sarekat Islam
-                    </h6>
-                    <p class="card-text">
-                      Jika kalian ingin menjadi
-                      <span class="bg-warning">Pemimpin Besar</span>, menulislah
-                      seperti wartawan dan
-                      <span class="bg-warning">bicaralah</span> seperti orator
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card d-block w-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Steve Jobs</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Eks CEO Apple</h6>
-                    <p class="card-text">
-                      <span class="bg-warning">The most powerful person in the world is the storyteller.</span>
-                      The storyteller sets the vision, values, and agenda of an
-                      entire generation that is to come.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="border border-dark w-75 h-75 rounded-circle my-4"></span>
-        <!-- Carousel end -->
-        <!-- Manfaat start -->
         <div
-          class="d-flex flex-column justify-content-center text-center w-100 bg-primary rounded p-2"
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
         >
-          <h1 class="my-2 fw-bold text-white fs-3xl">
-            Manfaat Public Speaking
-          </h1>
-          <div class="wrap d-flex flex-lg-row flex-column gap-4 my-4">
-            <div
-              class="d-flex flex-column align-items-center justify-content-center p-2 bg-white rounded"
-            >
-              <i class="material-icons text-warning fs-1">check_circle</i>
-              <h3 class="fw-bold">Meningkatkan Percaya Diri</h3>
-              <p class="">
-                Dengan program kami, kamu akan belajar bagaimana menjadi
-                pembicara yang percaya diri dan berpengaruh. Kamu akan
-                mendapatkan materi yang lengkap dan terstruktur, serta bimbingan
-                dari coach yang berpengalaman.
-              </p>
+          <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">John F. Kennedy</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Mantan Presiden AS</h6>
+                  <p class="card-text fs-5">
+                    “The only reason to give a speech is to
+                    <span class="bg-warning px-1 rounded">change the world</span>.”
+                  </p>
+                </div>
+              </div>
             </div>
-            <div
-              class="d-flex flex-column align-items-center justify-content-center p-2 bg-white rounded"
-            >
-              <i class="material-icons text-warning fs-1">business_center</i>
-              <h3 class="fw-bold">Meningkatkan Kemampuan Berbicara</h3>
-              <p class="">
-                Dengan program kami, kamu akan belajar bagaimana mengembangkan
-                kemampuan berbicara yang lebih baik. Kamu akan mendapatkan
-                materi yang lengkap dan terstruktur, serta bimbingan dari coach
-                yang berpengalaman.
-              </p>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Dale Carnegie</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Pakar Komunikasi</h6>
+                  <p class="card-text fs-5">
+                    “Talk to someone about themselves, and
+                    they'll listen for hours.”
+                  </p>
+                </div>
+              </div>
             </div>
-            <div
-              class="d-flex flex-column align-items-center justify-content-center p-2 bg-white rounded"
-            >
-              <i class="material-icons text-warning fs-1">emoji_people</i>
-              <h3 class="fw-bold">Meningkatkan Relasi</h3>
-              <p class="">
-                Dengan program kami, kamu akan belajar bagaimana mengembangkan
-                relasi yang lebih baik dengan orang lain. Kamu akan mendapatkan
-                materi yang lengkap dan terstruktur, serta bimbingan dari coach
-                yang berpengalaman.
-              </p>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Najwa Shihab</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Jurnalis & Presenter</h6>
+                  <p class="card-text fs-5">
+                    “Jangan hanya jadi pendengar, jadilah
+                    <span class="bg-warning px-1 rounded">pembicara yang berpengaruh</span>.”
+                  </p>
+                </div>
+              </div>
             </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Dian Sastrowardoyo</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Aktris & Penggiat Seni</h6>
+                  <p class="card-text fs-5">
+                    “Public speaking bukan tentang
+                    <span class="bg-warning px-1 rounded">kekuatan suara</span>, tetapi tentang
+                    <span class="bg-warning px-1 rounded">kekuatan kata-kata</span>.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Tung Desem Waringin</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Motivator & Coach</h6>
+                  <p class="card-text fs-5">
+                    “<span class="bg-warning px-1 rounded">Berani bicara</span>, berani bertindak, berani mewujudkan
+                    <span class="bg-warning px-1 rounded">impianmu</span>.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-        <!-- Manfaat end -->
-        <span class="border border-dark w-75 h-75 rounded-circle my-4"></span>
-        <!-- Program section start -->
-        <div class="wrap my-4">
-          <h1 class="fs-3xl text-center fw-bold">Program Kami</h1>
-          <p class="text-center fs-2xl">
-            Kami memiliki program yang dirancang khusus untukmu! Dengan program
-            kami, kamu akan belajar bagaimana menjadi pembicara yang percaya
-            diri dan berpengaruh. Kamu akan mendapatkan materi yang lengkap dan
-            terstruktur, serta bimbingan dari coach yang berpengalaman.
-          </p>
-          <div
-            class="card-group d-flex flex-column align-items-center justify-content-center gap-4"
+      </section>
+
+      <!-- Manfaat Section -->
+      <section
+        class="d-flex flex-column justify-content-center text-center w-100 bg-primary rounded p-4 mb-5"
+      >
+        <h1 class="my-3 fw-bold text-white fs-3xl">Manfaat Public Speaking</h1>
+        <div class="wrap d-flex flex-lg-row flex-column gap-4 my-4">
+          <article
+            class="d-flex flex-column align-items-center justify-content-center p-3 bg-white rounded shadow-sm"
           >
-            <div class="card rounded">
-              <img
-                src="assets/img/poster-ps-pelajar.jpg"
-                class="card-img-top"
-                alt="Public Speaking Pelajar"
-              />
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+            <i class="material-icons text-warning fs-1 mb-2">check_circle</i>
+            <h3 class="fw-bold mb-2">Meningkatkan Percaya Diri</h3>
+            <p class="mb-0 px-3 px-lg-0">
+              Dengan program kami, kamu akan belajar bagaimana menjadi pembicara
+              yang percaya diri dan berpengaruh. Kamu akan mendapatkan materi
+              yang lengkap dan terstruktur, serta bimbingan dari coach yang
+              berpengalaman.
+            </p>
+          </article>
+          <article
+            class="d-flex flex-column align-items-center justify-content-center p-3 bg-white rounded shadow-sm"
+          >
+            <i class="material-icons text-warning fs-1 mb-2">business_center</i>
+            <h3 class="fw-bold mb-2">Meningkatkan Kemampuan Berbicara</h3>
+            <p class="mb-0 px-3 px-lg-0">
+              Dengan program kami, kamu akan belajar bagaimana mengembangkan
+              kemampuan berbicara yang lebih baik. Kamu akan mendapatkan materi
+              yang lengkap dan terstruktur, serta bimbingan dari coach yang
+              berpengalaman.
+            </p>
+          </article>
+          <article
+            class="d-flex flex-column align-items-center justify-content-center p-3 bg-white rounded shadow-sm"
+          >
+            <i class="material-icons text-warning fs-1 mb-2">emoji_people</i>
+            <h3 class="fw-bold mb-2">Meningkatkan Relasi</h3>
+            <p class="mb-0 px-3 px-lg-0">
+              Dengan program kami, kamu akan belajar bagaimana mengembangkan
+              relasi yang lebih baik dengan orang lain. Kamu akan mendapatkan
+              materi yang lengkap dan terstruktur, serta bimbingan dari coach
+              yang berpengalaman.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Program Section -->
+      <section class="wrap mb-5">
+        <h1 class="fs-3xl text-center fw-bold mb-3">Program Kami</h1>
+        <p class="text-center fs-2xl mb-4 px-3 px-md-5">
+          Kami memiliki program yang dirancang khusus untukmu! Dengan program
+          kami, kamu akan belajar bagaimana menjadi pembicara yang percaya
+          diri dan berpengaruh. Kamu akan mendapatkan materi yang lengkap dan
+          terstruktur, serta bimbingan dari coach yang berpengalaman.
+        </p>
+        <div
+          class="card-group d-flex flex-md-row flex-column align-items-md-start align-items-center justify-content-center gap-4"
+        >
+          <div class="card rounded shadow-sm">
+            <img
+              src="assets/img/poster-ps-pelajar.jpg"
+              class="card-img-top rounded"
+              alt="Public Speaking Pelajar"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div
+                class="card-title d-flex align-items-center gap-md-2 gap-1 mb-3 flex-wrap"
+              >
+                <h5 class="fw-bold mb-0">Public Speaking Pelajar</h5>
+                <a
+                  href="#"
+                  class="hvr-grow d-flex align-items-center bg-primary rounded-pill w-auto text-white ps-3 pe-3 py-1"
+                >
+                  <i class="material-icons text-white fs-6">circle</i>
+                  <h6 class="ms-2 mb-0">Online</h6>
+                </a>
               </div>
+              <p class="card-text fs-5">
+                Program ini cocok banget buat kamu yang masih duduk di bangku SD
+                kelas 4–6 atau SMP kelas 7–9 dan pengen belajar cara tampil
+                percaya diri di depan banyak orang. Lewat program ini, kamu bakal
+                dilatih supaya berani bicara dan hebat di segala suasana ✨.
+                <br /><br />
+                <strong>💡 Benefit yang bisa kamu dapetin:</strong>
+                <ul class="mt-2">
+                  <li>Sertifikat resmi setelah kelas selesai</li>
+                  <li>Pendampingan setelah kelas biar skill kamu makin terasah</li>
+                  <li>Relasi baru dari teman-teman sesama pelajar</li>
+                  <li>Dokumentasi keren biar bisa jadi kenangan dan portofolio</li>
+                </ul>
+                Kelas ini baru tersedia secara <strong>online</strong> yaa, tapi
+                kalau kamu penasaran tentang kelas kita, langsung aja klik tombol
+                <a href="#cta">Daftar Sekarang</a> atau hubungi kontak WhatsApp
+                yang tersedia yaa 📲
+              </p>
             </div>
-            <div class="card rounded">
-              <img
-                src="assets/img/poster-ps-umum.png"
-                class="card-img-top"
-                alt="Public Speaking Pelajar"
-              />
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Card title</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+          </div>
+
+          <div class="card rounded shadow-sm">
+            <img
+              src="assets/img/poster-ps-umum.png"
+              class="card-img-top rounded"
+              alt="Public Speaking Umum"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div
+                class="card-title d-flex align-items-center gap-md-2 gap-1 mb-3 flex-wrap"
+              >
+                <h5 class="fw-bold mb-0">Public Speaking Umum</h5>
+                <a
+                  href="#"
+                  class="hvr-grow d-flex align-items-center bg-primary rounded-pill w-auto text-white ps-3 pe-3 py-1"
+                >
+                  <i class="material-icons text-white fs-6">circle</i>
+                  <h6 class="ms-2 mb-0">Online</h6>
+                </a>
               </div>
+              <p class="card-text fs-5">
+                Nah, kalau program yang satu ini terbuka untuk semua kalangan 🎉.
+                Cocok buat kamu yang ingin meningkatkan kemampuan komunikasi,
+                presentasi, atau sekadar mengasah rasa percaya diri. Apalagi
+                sekarang skill public speaking itu jadi salah satu modal penting
+                di dunia kerja maupun organisasi.
+                <br /><br />
+                <strong>💡 Benefit yang bisa kamu dapetin:</strong>
+                <ul class="mt-2">
+                  <li>Sertifikat resmi sebagai bukti kompetensi</li>
+                  <li>Pendampingan setelah kelas agar ilmu lebih terarah</li>
+                  <li>
+                    Relasi yang lebih luas, bukan cuma sesama peserta tapi juga
+                    dunia profesional
+                  </li>
+                  <li>Dokumentasi yang bisa jadi tambahan portofolio</li>
+                </ul>
+                Kelas ini baru tersedia secara <strong>online</strong> yaa. Kalau
+                kamu ngerasa butuh upgrade skill komunikasi, langsung aja hubungi
+                contact person di bawah yaa. Jangan sampai kelewatan kesempatan
+                emas ini 😉
+              </p>
             </div>
           </div>
         </div>
-        <!-- Program section end -->
-      </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section id="cta" class="mb-5">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center bg-primary rounded p-5"
+        >
+          <h1 class="text-white fs-3xl fw-bold mb-3">Ayo Buruan Daftar!</h1>
+          <p class="text-white fs-2xl text-center mb-4 px-3 px-md-5">
+            Dengan mendaftar sekarang, kamu akan mendapatkan materi yang lengkap
+            dan terstruktur, serta bimbingan dari coach yang berpengalaman.
+          </p>
+          <a
+            href="https://wa.me/6281932312345"
+            class="btn btn-success w-75 fs-6 fw-bold py-3"
+            >Daftar Sekarang</a
+          >
+        </div>
+      </section>
     </div>
+
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/fastbootstrap/dist/js/fastbootstrap.min.js"></script>
   </body>
-  <script src="assets/js/main.js"></script>
-  <!-- <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-  <script src="assets/fastbootstrap/dist/js/fastbootstrap.min.js"></script>
 </html>
